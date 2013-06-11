@@ -2,20 +2,26 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com"
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
   <remote  name="github"
-           fetch="https://github.com"
+           fetch="https://github.com/"
            review="gerrit.androidninjas.com:8181"
            revision="jellybean" />
 
   <remote  name="private"
-           fetch="ssh://git@github.com" />
+           fetch="ssh://git@github.com/" />
 
   <remote  name="paranoid"
            fetch="ssh://git@bitbucket.org/paranoidandroid/" 
            revision="jellybean" />
+
+  <remote  name="rqdev"
+           fetch="https://github.com/" />
+
+  <remote  name="rqkang"
+           fetch="https://github.com/" />
 
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
@@ -239,7 +245,7 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-   <project path="packages/apps/Browser" name="ParanoidAndroid/android_packages_apps_Browser" remote="github" revision="jellybean" />
+  <project path="packages/apps/Browser" name="ParanoidAndroid/android_packages_apps_Browser" remote="github" revision="jellybean" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="github" revision="cm-10.1" />
   <project path="packages/apps/Calendar" name="ParanoidAndroid/android_packages_apps_Calendar" remote="github" revision="jellybean" />
   <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" remote="github" revision="cm-10.1" />
@@ -329,11 +335,12 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
-  <project path="vendor/pa" name="ParanoidAndroid/android_vendor_pa" remote="github" revision="jellybean" />
 
   <project path="paranoid" name="ParanoidAndroid/paranoid" remote="github" revision="jellybean" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
+
+  <project path="vendor/pa" name="razrqcom-kang/android_vendor_pa" remote="rqkang" revision="jellybean" />
 
   <!-- Theme engine support, all the credits go to T-Mobile and CyanogenMod -->
   <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" remote="github" revision="jellybean" />
