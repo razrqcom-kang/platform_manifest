@@ -18,10 +18,10 @@
            review="http://review.omapzoom.org/" />
 
   <remote  name="rqdev"
-           fetch="https://github.com" />
+           fetch="https://github.com/" />
 
   <remote  name="rqkang"
-           fetch="https://github.com" />
+           fetch="https://github.com/" />
 
   <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
