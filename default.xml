@@ -450,9 +450,9 @@
 
   <!-- Razrqcom-kang -->
   <project path="platform_manifest" name="razrqcom-kang/platform_manifest" remote="rqkang" revision="aokp_jb-mr1" />
-  <project path="device/motorola/mb886" name="razrqcom-dev-team/device_motorola_mb886" remote="rqdev" revision="cm-10.1" />
-  <project path="device/motorola/msm8960-common" name="razrqcom-dev-team/device_motorola_msm8960-common" remote="rqdev" revision="cm-10.1" />
+  <project path="device/motorola/mb886" name="razrqcom-dev-team/android_device_motorola_mb886" remote="rqdev" revision="cm-10.1" />
+  <project path="device/motorola/msm8960-common" name="razrqcom-dev-team/android_device_motorola_msm8960-common" remote="rqdev" revision="cm-10.1" />
   <project path="vendor/aokp" name="razrqcom-kang/vendor_aokp" remote="rqkang" revision="jb-mr1" />
-  <project path="vendor/motorola/mb886" name="razrqcom-dev-team/vendor_motorola_mb886" remote="rqdev" revision="cm-10.1" />
+  <project path="vendor/motorola/mb886" name="razrqcom-dev-team/android_vendor_motorola_mb886" remote="rqdev" revision="cm-10.1" />
 
 </manifest>
