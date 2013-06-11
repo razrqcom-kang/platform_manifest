@@ -17,6 +17,12 @@
            fetch="git://git.omapzoom.org/"
            review="http://review.omapzoom.org/" />
 
+  <remote  name="rqdev"
+           fetch="https://github.com/razrqcom-dev-team" />
+
+  <remote  name="rqkang"
+           fetch="https://github.com/razrqcom-kang" />
+
   <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
            sync-j="4" />
@@ -443,5 +449,5 @@
 
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
 
-  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="jb-mr1" />
+  <project path="platform_manifest" name="razrqcom-kang/platform_manifest" remote="rqkang" revision="aokp_jb-mr1" />
 </manifest>
