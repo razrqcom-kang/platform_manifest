@@ -388,5 +388,6 @@
   <!-- Razrqcom-Dev-Team -->
   <project path="device/motorola/mb886" name="razrqcom-dev-team/android_device_motorola_mb886" remote="rqdev" revision="cm-10.1" />
   <project path="vendor/motorola/mb886" name="razrqcom-dev-team/android_vendor_motorola_mb886" remote="rqdev" revision="cm-10.1" />
+  <project path="vendor/motorola/msm8960-common" name="razrqcom-dev-team/android_vendor_motorola_msm8960-common" remote="rqdev" revision="cm-10.1" />
 
 </manifest>
