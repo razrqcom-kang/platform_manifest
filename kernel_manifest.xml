@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="kernel/motorola/msm8960-common" name="razrqcom-dev-team/android_kernel_motorola_msm8960-common" remote="rqdev" revision="cm-10.1" />
+  <project path="kernel/motorola/msm8960-common" name="razrqcom-kang/android_kernel_motorola_msm8960-common" remote="rqkang" revision="cm-10.1" />
 </manifest>
