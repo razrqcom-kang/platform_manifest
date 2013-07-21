@@ -385,6 +385,15 @@
   <project path="vendor/aokp" name="razrqcom-kang/vendor_aokp" remote="rqkang" revision="jb-mr1" />
   <project path="device/motorola/mb886" name="razrqcom-kang/android_device_motorola_mb886" remote="rqkang" revision="cm-10.1" />
   <project path="vendor/motorola/mb886" name="razrqcom-kang/android_vendor_motorola_mb886" remote="rqkang" revision="cm-10.1" />
+  <project path="device/motorola/xt926" name="razrqcom-kang/android_device_motorola_xt897" remote="rqkang" revision="cm-10.1" />
+  <project path="device/motorola/xt926" name="razrqcom-kang/android_device_motorola_xt897c" remote="rqkang" revision="cm-10.1" />
+  <project path="vendor/motorola/xt926" name="razrqcom-kang/android_vendor_motorola_xt897" remote="rqkang" revision="cm-10.1" />
+  <project path="device/motorola/xt926" name="razrqcom-kang/android_device_motorola_xt907" remote="rqkang" revision="cm-10.1" />
+  <project path="vendor/motorola/xt926" name="razrqcom-kang/android_vendor_motorola_xt907" remote="rqkang" revision="cm-10.1" />
+  <project path="device/motorola/xt925" name="razrqcom-kang/android_device_motorola_xt925" remote="rqkang" revision="cm-10.1" />
+  <project path="vendor/motorola/xt925" name="razrqcom-kang/android_vendor_motorola_xt925" remote="rqkang" revision="cm-10.1" />
+  <project path="device/motorola/xt926" name="razrqcom-kang/android_device_motorola_xt926" remote="rqkang" revision="cm-10.1" />
+  <project path="vendor/motorola/xt926" name="razrqcom-kang/android_vendor_motorola_xt926" remote="rqkang" revision="cm-10.1" />
   <project path="vendor/motorola/msm8960-common" name="razrqcom-kang/android_vendor_motorola_msm8960-common" remote="rqkang" revision="cm-10.1" />
   
   <!-- Razrqcom-Dev-Team -->
